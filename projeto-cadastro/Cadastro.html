@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fale Conosco | Tudo Vende | Casa de Variedades</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar nav-dark bg-dark">
+      <a class="navbar-brand" href="#">Tudo Vende | Casa de Variedades</a>
+    </nav>
+  </header>
+
+  <div class="container mt-5">
+    <h1>Seja bem-vindo!</h1>
+    <p>Como este é o seu primeiro acesso, é necessário preencher os dados abaixo para concluir a criação da sua conta.</p>
+
+    <main>
+      <form>
+        <input type="text" placeholder="Nome completo" class="form-control">
+        <input type="email" placeholder="E-mail" class="form-control mt-1">
+
+        <input type="number" placeholder="Telefone fixo" class="form-control mt-1">
+        <input type="number" placeholder="Celular" class="form-control mt-1">
+
+        <div class="d-flex form-group mt-2 mb-1">
+          <input type="radio" name="genero"> Masculino<br>
+          <input type="radio" name="genero"> Feminino<br>
+        </div>
+
+        <select class="form-control mt-1">
+          <option disabled=""""selected="""">INforme seu Estado</option>
+            <option>Estado 1</option>
+            <option>Estado 2</option>
+            <option>Estado 3</option>
+            <option>Estado 4</option>
+        </select>
+
+        <input type="text" placeholder="Cidade" class="form-control mt-1">
+
+        <input type="date" placeholder="Data de nascimento" class="form-control mt-1">
+
+        <select class="form-control mt-1">
+          <option disabled="" selected="">Estado Civil</option>
+          <option>Solteiro</option>
+          <option>Casado</option>
+        <?select>
+
+        <textarea class="form-control mt-1" placeholder="Conte-nos um pouco sobre você"></textarea>
+
+        <input type="checkbox" name="termouso" checked>
+        <label for="termouso">Concordo com os termos de uso e desejo concluir e criar a minha conta.</label>
+
+        <button class="btn btn-lg btn-block btn-primary">Criar minha conta</button>
+      </form>
+    </main>
+  </div>
+</body>
+<script type="text/javascript">
+  function cadastrar(){
+    alert("Obrigado! Recebemos o seu cadastro e, em breve, você receberá um e-mail de confirmação!");
+  }
+</script>
+</html>

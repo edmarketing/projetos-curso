@@ -1,0 +1,87 @@
+/* seletores iguais podem ficar juntos separados por ","
+exemplo: H1, p{} e se eu quiser um seletor universal é só fazer *{}   */
+
+body{
+  background:#ccc;
+}
+
+h1{
+  color: white;
+  font-size:30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  background: black;
+/*  margin: 70px; */
+  margin: 20px 600px 40px 450px;
+/*  padding: 20px 70px 30px 5px; */
+  padding:20px;
+  font-family: sans-serif;
+  font-style:italic;
+}
+
+h2{color: green;
+}
+
+a.botao{
+  font-size: 20px;
+  background: green;
+  margin-left: 300px;
+  padding:15px;
+  border: 2px solid greenyellow;
+  border-radius: 15px;
+  text-decoration: none;
+  }
+
+a.botao_outra{
+  background: blue;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid greenyellow;
+  border-radius: 15px;
+}
+
+a.botao_outra:hover{
+  background: yellow;
+  color: black;
+}
+
+a.botao_new{
+  background: orange;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid greenyellow;
+  border-radius: 15px;
+}
+
+a.botao_new:hover{
+  background: blue;
+  color: black;
+}
+
+p{
+  color: blue;
+  margin: 20px;
+}
+
+.vermelho{
+  color: red;
+}
+
+.fonte-25{
+  font-size:25px;
+}
+
+#teste{
+  font-color:dark;
+  height: 50px;
+  background:white;
+}
+
+.exemplo-back{
+  height: 300px;
+  background-color: gray;
+  background-image: ("../FOTOS PARA CURSO/Foto28.jpg")
+}

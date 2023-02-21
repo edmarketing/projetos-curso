@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Agência de Recursos Humanos</title>
+    <link rel="stylesheets" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0i"/>
+</head>
+<body>
+    <header style="background: #00bdc4; padding: 30px 0; color: #fff !important;">
+        <div style="width: 80%; margin: 0 auto;">
+            <h5 style="color: #004999;">
+                Consultoria em RH.
+            </h5>
+        </div>
+    </header>
+    <div class="container mt-5">
+        <h2 class="text-let">Cadastrar cliente</h2>
+    </div>    
+        <form id="formulario-adicionar">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input required type="nome" class="form-control" id="nome">
+            </div>
+            <div class="form-group">
+                <label for="cpf"></label>
+                <input required type="cpf" class="form-control" id="cpf">
+            </div>
+            <div class="form-group">
+                <label for="sexo"></label>
+                    <option>Feminino</option>
+                    <option>Masculino</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        cpf = document.getElementById('cpf').value;
+        sexo = document.getElementById('sexo').value;
+        data = document.getElementById('datanascimento').value;
+        var novoCliente = new Cliente(nome, cpf, sexo, data);
+
+        clientes.push(novoCliente);
+        carregarTabela();
+
+        this.reset();
+    });
+
+    const tabelaClientes = document.getElementByTagName('table')[0];
+
+    function adicionarClienteNaTabela(cliente, index) {
+        var registro = document.createElement('tr');
+        var colunaNome = document.createElement('td');
+        colunaNome.innerHTML = cliente.nome;
+        registro.append(colunaNome);
+        colunaCPF = document.createElement('td');
+        var colunaCPF = document.createElement('td');
+        colunaCPF.innerHTML = cliente.cpf;
+        registro.append(colunaCPF);
+        var colunaSexo = document.createElement('td');
+        colunaSexo.innerHTML = cliente.sexo;
+        registro.append(colunaSexo);
+        var colunaDataNascimento = document.createElement('td');
+        colunaDataNascimento.innerHTML = cliente.data_nascimento;
+        registro.append(colunaDataNascimento);
+
+        tabelaClientes.document.getElementByTagName('tbody')[0].append(registro);
+    }
+
+    function carregarTabela() {
+        clientes.foreach(function(cliente._index)) {
+            
+        }
+    }
+            </div>
+
+        </form>
+
+</body>
+
+</html>

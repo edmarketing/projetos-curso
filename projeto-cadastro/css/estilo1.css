@@ -1,0 +1,93 @@
+/* Para ser usado na rotina do animação aula 4 */
+
+body{
+  font-family: "Helvetica";
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+  width:960px;
+  height: 50px;
+  margin:0 autole;
+}
+
+nav li{
+  display: inline;
+  padding-left: 25px;
+  float: left;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover{
+  color: red;
+}
+
+nav a{
+  color:black;
+  text-decoration:none;
+}
+
+nav ul{
+  margin-left:-480px;
+}
+
+#bannerprincipal{
+  width: 100%;
+  height: 450px;
+  margin-top: 15px;
+  background: black;
+  animation-name: cor;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: cor;
+  -webkit-animation-duration: 10s;
+  -webkit animation-iteration-count: infinite;
+}
+
+@keyframes cor{
+  0% (background-color: blue;)
+  20% (background-color: black;)
+  40% (background-color: yellow;)
+  60% (background-color: red;)
+  80% (background-color: green;)
+  100% (background-color: orange;)
+}
+
+@-webkit-keyframes cor{
+  0% (background-color: blue;)
+  20% (background-color: black;)
+  40% (background-color: yellow;)
+  60% (background-color: red;)
+  80% (background-color: green;)
+  100% (background-color: orange;)
+}
+
+.centralizado{
+  width: 960px;
+  padding-top: 250px;
+  height: 200px;
+  margin: auto;
+}
+
+.centralizado h1{
+  color: #fff;
+}
+
+#imgexpandir{
+  width: 500px;
+  height: 100px;
+  transition: width 5s, height 5s;
+  background-image: url("../img/background.jpg");
+}
+
+#imgexpandir:hover{
+  width: 100%;
+  height: 600px;
+}
