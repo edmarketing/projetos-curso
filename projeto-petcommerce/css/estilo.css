@@ -1,0 +1,97 @@
+/* Para ser usado na rotina do petcommerce aula ? */
+
+body{
+  font-family: "Open Sans";
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  padding-top:10px;
+  padding-bottom:25px;
+  padding-left:0;
+  padding-right:0;
+  background:#f3f3f3;
+  border-bottom:20px solid #3af29d;
+}
+
+nav{
+  width:960px;
+  margin:0 auto;
+}
+
+nav ul{
+  list-style:none;
+  text-align:right;
+  margin-top:-40px;
+  text-transform: uppercase;
+}
+
+nav ul li{
+  display: inline;
+  padding: 2px 20px;
+}
+
+nav a{
+  color:#530f2e;
+  font-family:Trebuchet MS;
+  text-decoration:none;
+}
+
+li a:hover{
+  color: red;
+}
+
+iframe{
+  transition: height 1s;
+}
+
+iframe:hover{
+  height: 600px;
+}
+
+nav a:hover{
+  color: #3af29d;
+}
+
+  border: 1px solid #ccc;
+  width: 29.6%;
+font-family: Trebuchet MS;
+}
+
+textarea{
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  height: 200px;
+  margin-top: 5px;
+  width: 930px;
+  font-family: Trebuchet MS;
+}
+
+button{
+  border-radius: 10px;
+}
+
+@keyframes botao{
+  0% {background-color: blue;}
+  20% {background-color: black;}
+  40% {background-color: yellow;}
+  60% {background-color: red;}
+  80% {background-color: green;}
+  100% {background-color: orange;}
+}
+
+@-webkit-keyframes botao{
+  0% {background-color: blue;}
+  20% {background-color: black;}
+  40% {background-color: yellow;}
+  60% {background-color: red;}
+  80% {background-color: green;}
+  100% {background-color: orange;}
+}
+padding: 30px 25px;
+
+button:hover{
+
+}
